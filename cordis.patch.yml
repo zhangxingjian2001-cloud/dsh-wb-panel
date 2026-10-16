@@ -1,0 +1,6 @@
+# Insert this plugin into the profile's plugin stack.
+# It only registers two tools (wb_accounts / wb_account_ctl); it does not
+# touch providers, the default model, or any other plugin's config.
+- insert:
+    - id: wb-panel
+      name: dsh-wb-panel
